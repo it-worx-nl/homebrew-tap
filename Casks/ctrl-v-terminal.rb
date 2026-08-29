@@ -16,7 +16,7 @@ cask "ctrl-v-terminal" do
   # The app ships electron-updater and replaces itself, so Homebrew should not
   # treat a newer installed version as drift.
   auto_updates true
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "Ctrl-V Terminal.app"
 

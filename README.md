@@ -8,8 +8,13 @@ SFTP with its path typed at the cursor.
 
 ```bash
 brew tap it-worx-nl/tap
+brew trust it-worx-nl/tap
 brew install --cask ctrl-v-terminal
 ```
+
+Homebrew asks for that middle line because this is not one of its own
+repositories: since Homebrew 6 it will not load a cask from a third-party tap
+until you say you trust it. You only do it once.
 
 Updates come with your regular `brew upgrade`. The app can also update itself,
 so either route keeps you current.
