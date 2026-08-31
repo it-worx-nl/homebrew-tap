@@ -1,6 +1,6 @@
 cask "ctrl-v-terminal" do
-  version "1.2.2"
-  sha256 "85135203b4104fd4344bdb3d43ccd7d3c7cd1c8681d150daa4484839baf070bb"
+  version "1.2.3"
+  sha256 "483e456fd38da041c0c7e67345500daec98328e2d367bb0e9668db2580bf0840"
 
   url "https://github.com/it-worx-nl/ctrl-v-terminal-releases/releases/download/v#{version}/Ctrl-V-Terminal-#{version}-universal.dmg",
       verified: "github.com/it-worx-nl/ctrl-v-terminal-releases/"
