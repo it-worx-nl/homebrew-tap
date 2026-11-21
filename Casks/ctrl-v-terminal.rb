@@ -1,11 +1,11 @@
 cask "ctrl-v-terminal" do
-  version "1.2.37"
-  sha256 "c6549a8b152865316cd41df74d20993685eb7ec63f8cbb253317fd4227fd3cd4"
+  version "1.2.38"
+  sha256 "7d8f4804f679ab2c546492af7f2b8789e49aa73dd07135093d7c840452bddf16"
 
   url "https://github.com/it-worx-nl/ctrl-v-terminal-releases/releases/download/v#{version}/Ctrl-V-Terminal-#{version}-universal.dmg"
   name "CtrlVTerm"
   desc "Tabbed SSH, SFTP and VNC client that pastes images into a remote terminal"
-  homepage "https://ctrl-v-terminal.appgrid.eu/"
+  homepage "https://ctrlvterm.appgrid.eu/"
 
   livecheck do
     url :url
