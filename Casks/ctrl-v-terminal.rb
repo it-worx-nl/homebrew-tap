@@ -1,6 +1,6 @@
 cask "ctrl-v-terminal" do
-  version "1.2.38"
-  sha256 "7d8f4804f679ab2c546492af7f2b8789e49aa73dd07135093d7c840452bddf16"
+  version "1.2.39"
+  sha256 "014fec15abb46525ca27a55c0b87183caf81037df95c4af28cf58c9b092e9d37"
 
   url "https://github.com/it-worx-nl/ctrl-v-terminal-releases/releases/download/v#{version}/Ctrl-V-Terminal-#{version}-universal.dmg"
   name "CtrlVTerm"
@@ -18,7 +18,7 @@ cask "ctrl-v-terminal" do
   app "CtrlVTerm.app"
 
   zap trash: [
-    "~/Library/Application Support/Ctrl-V Terminal", # the old name, kept on purpose (see INTERNAL_NAME in src/main.js)
+    "~/Library/Application Support/ctrl-v-terminal", # the internal name (see INTERNAL_NAME in src/main.js)
     "~/Library/Preferences/com.ctrlvterminal.app.plist",
     "~/Library/Saved Application State/com.ctrlvterminal.app.savedState",
   ]
